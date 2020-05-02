@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.home-nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.home-nav ul li{
+    margin: 0px 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.home-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.home-nav ul form{
+    display: flex;
+    position: absolute;
+    right: 25%;
+    top: 10px;
+}
+.home-nav ul form button{
+    margin: 0px 15px;
+}
+.home-nav ul form input{
+    width: 300px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.product .card{
+    margin: 5px 15px;
+}
+.product .card img{
+    height: 180px;
+}
